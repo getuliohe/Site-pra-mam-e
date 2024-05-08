@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --vermelho-bg: #850000;
+    --vermelho-secundario: #DC0000;
+    --amarelo-pastel: #FFDB89;
+    --amarelo-pastel-claro: #FFF6C3;
+
+    --font-padrao: "PT Sans", sans-serif;
+}
+
+*{
+    font-family: var(--font-padrao);
+}
+
+body{
+    text-align: center;
+    background-color: var(--vermelho-bg);
+}
+
+.cabecalho{
+    color: var(--amarelo-pastel-claro);
+    font-size: 40px;
+    background-color: var(--vermelho-secundario);
+    padding: 10px;
+}
+
+.swiper{
+    margin: 10px 0;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.disabled_swiper_button {
+    opacity: 0;
+    cursor: auto;
+    pointer-events: none;
+}

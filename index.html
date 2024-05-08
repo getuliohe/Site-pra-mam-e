@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site pra mamãe</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Feliz dia das mães</h1>
+        <h2>Te amo</h2>
+    </header>
+
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+        <!-- Slides -->
+            <div class="swiper-slide"><img src="./assets/20131124_111944.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/20131214_111417.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/20180715_103834.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/20181027_212437.jpg" alt=""></div>
+            <!-- <div class="swiper-slide"><video src="./assets/VID_25620423_180815_093.mp4" controls></video></div> -->
+            <div class="swiper-slide"><img src="./assets/20230716_193757.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/DPSCamera_0006.JPG" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/DPSCamera_0037.JPG" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/IMG-20190818-WA0008.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/IMG-20190818-WA0009.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/IMG-20200114-WA0040.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/IMG-20200607-WA0003.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/IMG-20200725-WA0039.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/IMG-20200725-WA0040.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/IMG-20220619-WA0029.jpg" alt=""></div>
+            <!-- <div class="swiper-slide"><img src="./assets/IMG-20220619-WA0033.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/IMG-20220619-WA0038.jpg" alt=""></div> -->
+            <div class="swiper-slide"><img src="./assets/IMG_20200724_174656913.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/IMG_20220115_220244_662.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/WhatsApp Image 2024-04-22 at 15.47.33.jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/WhatsApp Image 2024-04-22 at 15.47.37 (16).jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/WhatsApp Image 2024-04-22 at 15.47.37 (29).jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/WhatsApp Image 2024-04-22 at 15.47.37 (7).jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/WhatsApp Image 2024-04-22 at 15.51.56.jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/WhatsApp Image 2024-04-22 at 15.51.59 (30).jpeg" alt=""></div>
+            <div class="swiper-slide"><img src="./assets/WhatsApp Image 2024-04-22 at 15.51.59 (53).jpeg" alt=""></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+  
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+  
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5TnkIjASx6yM2W1ANsyPLb?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+    <footer>
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        direction: 'horizontal',
+        spaceBetween: 20,
+        slidesPerView: 3,
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        disabledClass: 'disabled_swiper_button',
+        },
+        pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+</html>
