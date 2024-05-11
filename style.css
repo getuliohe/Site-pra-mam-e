@@ -38,3 +38,13 @@ body{
     cursor: auto;
     pointer-events: none;
 }
+
+.container__texto{
+    text-align: center;
+    background-color: var(--amarelo-pastel-claro);
+    padding: 1em;
+}
+
+.texto{
+    font-size: 25px;
+}
